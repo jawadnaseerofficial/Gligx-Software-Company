@@ -7,39 +7,36 @@ import Footer from "@/components/Footer";
 const overviewCards = [
   {
     title: "Detailed service explanation",
-    html: "<p>E-invoicing readiness as a software & finance workflow project. Gligx helps plan, map, and implement invoice data, validation, approval, and ERP integration for Peppol compliance.</p>",
+    html: '<p>UAE e-invoicing readiness is a software and finance workflow project. It requires clean invoice data, ERP or accounting system integration, invoice validation, approval rules, status dashboards, audit logs, user permissions, archival planning, and structured digital document exchange. Gligx helps businesses build Peppol-ready software layers and practical e-invoicing workflows around existing systems.</p><p>Our role is software integration, workflow development, dashboards, validation screens, and coordination where required. We do not claim official accreditation unless formally approved for that role. Businesses can connect this service with <a href="/services/custom-software-development-company/">custom software</a>, <a href="/services/ecommerce-website-development-dubai/">eCommerce</a>, and finance dashboards.</p>',
   },
   {
     title: "Who this service is for",
-    html: "<p>UAE businesses creating, sending, or receiving invoices via ERP, accounting platforms, eCommerce stores, or custom billing systems.</p>",
+    html: "<p>This service is for UAE businesses that create invoices through ERP, accounting software, eCommerce platforms, custom billing systems, or manual finance workflows and want to prepare for structured digital invoice exchange. It suits trading companies, manufacturers, service businesses, SMEs, enterprise teams, and finance departments.</p>",
   },
   {
     title: "Key features and modules",
-    html: "<p>Invoice data mapping, master data checks, tax validation, approval routing, Peppol-ready document generation, ERP integration, dashboards, audit logs.</p>",
+    html: "<p>Typical modules include invoice data mapping, customer and supplier master data checks, tax field validation, invoice approval, Peppol-ready document preparation, ERP integration, dashboard status, exception handling, credit note workflows, audit logs, reports, and secure archival planning.</p>",
   },
   {
     title: "Dubai and UAE relevance",
-    html: "<p>UAE e-invoicing affects finance, IT, operations, customer data, supplier data, and reporting. Peppol is a key framework.</p>",
+    html: "<p>UAE companies should prepare early because e-invoicing affects finance, IT, operations, customer data, supplier data, and reporting. Businesses with poor master data or manual approvals may need cleanup before digital exchange can work smoothly.</p>",
   },
   {
     title: "Common problems solved",
-    html: "<p>Manual invoice handling, slow approval cycles, duplicate entries, cross-system errors, compliance risks.</p>",
+    html: "<p>A proper e-invoicing workflow can reduce manual invoice handling, inconsistent tax fields, missing customer data, slow approvals, poor status visibility, duplicate entry, and errors between accounting, ERP, eCommerce, and finance teams.</p>",
   },
   {
     title: "Technologies and approach",
-    html: "<p>Readiness audit → field mapping → approval flows → integration → rollout testing.</p>",
+    html: "<p>Gligx starts with readiness audit, then maps invoice fields, approval flows, user roles, integration options, APIs, exports, dashboards, validation rules, reporting, and rollout testing. The solution is shaped around the company\u2019s current systems and compliance direction.</p>",
   },
   {
     title: "What Gligx focuses on",
     html: `<ul>
-<li>Invoice lifecycle discovery</li>
-<li>Peppol-ready data mapping</li>
-<li>ERP/accounting integration planning</li>
-<li>Validation and approval dashboards</li>
-<li>Role-based approval workflows</li>
-<li>Invoice status and exception reporting</li>
-<li>Credit note and debit note workflows</li>
-<li>Audit logs and reporting interfaces</li>
+<li>Invoice lifecycle discovery from quotation, order, invoice creation, approval, exchange, payment follow-up, and archival.</li>
+<li>Peppol-ready data mapping for structured invoice fields, customer details, supplier records, tax values, and status tracking.</li>
+<li>ERP, accounting software, eCommerce, CRM, and custom billing system integration planning.</li>
+<li>Validation dashboards to catch missing or incorrect invoice data before transmission.</li>
+<li>Role-based approvals, audit logs, reporting screens, and secure long-term support.</li>
 </ul>`,
   },
 ];
@@ -53,6 +50,7 @@ const useCases = [
   "API-connected finance automation",
   "Credit note and debit note workflows",
   "Invoice status and exception reporting",
+  "Coordination with accredited service providers",
 ];
 
 const industries = [
@@ -69,48 +67,52 @@ const industries = [
 ];
 
 const processSteps = [
-  { num: "01", title: "Discovery", desc: "We review business goals, users, competitors, current systems, content gaps, SEO risks, integrations, and launch priorities." },
-  { num: "02", title: "Planning", desc: "We define sitemap, user journeys, feature scope, data flow, content structure, tracking, and measurable success points." },
-  { num: "03", title: "Design", desc: "We create clean responsive interfaces, conversion paths, content hierarchy, and user-friendly screens for desktop and mobile." },
-  { num: "04", title: "Build", desc: "We develop the website, application, platform, or campaign system with secure code, CMS logic, integrations, and performance in mind." },
-  { num: "05", title: "Launch", desc: "We test forms, mobile behavior, speed, SEO metadata, redirects, analytics, schema, and deployment requirements." },
-  { num: "06", title: "Growth", desc: "We support improvements, maintenance, SEO, campaigns, reporting, hosting, and new features after launch." },
+  { num: "01", title: "Readiness Audit", desc: "We review current invoice workflows, software, master data, approval rules, reporting needs, and integration options." },
+  { num: "02", title: "Data Mapping", desc: "We map invoice fields, tax details, customer and supplier records, line items, credit notes, and required statuses." },
+  { num: "03", title: "Workflow Design", desc: "We design dashboards, approval flows, validation screens, role permissions, audit logs, and exception handling." },
+  { num: "04", title: "Integration Build", desc: "We connect ERP, accounting software, billing systems, eCommerce platforms, APIs, exports, or middleware where practical." },
+  { num: "05", title: "Testing", desc: "We test sample invoices, failed validations, approval cases, user roles, reports, and archive access before rollout." },
+  { num: "06", title: "Support", desc: "We provide improvement cycles, monitoring support, documentation, and coordination with relevant providers where needed." },
 ];
 
 const portfolioExamples = [
   {
     num: "01",
-    title: "Internal operations systems",
-    desc: "Budget management, visitor management, approvals, dashboards, and reporting workflows for regional enterprise teams.",
-    mockup: { title: "Operations OS", sidebar: ["Approvals", "Visitors", "Budget"], metrics: [{ value: "84%", label: "Workflow health" }, { value: "32", label: "Open requests" }, { value: "Live", label: "Reports" }], bars: ["86%", "64%", "72%"], list: ["Budget request queue", "Visitor pass approval", "Monthly operations report"] },
+    title: "Finance approval workflow",
+    desc: "Invoice creation, internal approval, validation, status tracking, and audit-ready reporting for multi-user finance teams.",
+    mockup: { title: "E-Invoice Hub", sidebar: ["Invoices", "Peppol", "ERP"], metrics: [{ value: "UBL", label: "Mapped" }, { value: "API", label: "Ready" }, { value: "Live", label: "Audit" }], bars: ["86%", "64%", "72%"], list: ["Invoice validation queue", "Peppol exchange status", "ERP sync and reporting"] },
   },
   {
     num: "02",
-    title: "Government department platforms",
-    desc: "Project management, employee management, mobile application, and department workflow systems for UAE public-sector style operations.",
-    mockup: { title: "Department Portal", sidebar: ["Projects", "Staff", "Mobile"], metrics: [{ value: "46", label: "Tasks" }, { value: "12", label: "Teams" }, { value: "Live", label: "Mobile" }], bars: ["82%", "62%", "78%"], list: ["Project milestone tracker", "Employee task allocation", "Field mobile workflow"] },
+    title: "ERP integration layer",
+    desc: "API-ready invoice data mapping between existing ERP or accounting software and a structured e-invoicing workflow.",
+    mockup: { title: "Operations OS", sidebar: ["Approvals", "Visitors", "Budget"], metrics: [{ value: "84%", label: "Workflow health" }, { value: "32", label: "Open requests" }, { value: "Live", label: "Reports" }], bars: ["86%", "64%", "72%"], list: ["Budget request queue", "Visitor pass approval", "Monthly operations report"] },
   },
   {
     num: "03",
-    title: "Manufacturing and pricing systems",
-    desc: "Diamond manufacturing workflows, price calculation, RapNet-style pricing integration, inventory, and auction modules.",
-    mockup: { title: "Manufacturing ERP", sidebar: ["Rough", "Polished", "Auction"], metrics: [{ value: "Rap", label: "Pricing" }, { value: "SKU", label: "Tracked" }, { value: "Live", label: "Auction" }], bars: ["66%", "84%", "77%"], list: ["Rough to polished workflow", "Price calculation engine", "Inventory and auction module"] },
+    title: "eCommerce invoice automation",
+    desc: "Order-to-invoice workflows for online stores, product catalogues, tax fields, customer data, and finance reporting.",
+    mockup: { title: "Commerce Platform", sidebar: ["Catalog", "Orders", "Pricing"], metrics: [{ value: "420", label: "Products" }, { value: "18", label: "Orders" }, { value: "3.8x", label: "ROAS" }], bars: ["76%", "88%", "58%"], list: ["Product inventory sync", "Secure checkout flow", "Auction pricing module"] },
   },
   {
     num: "04",
-    title: "Real estate management platforms",
-    desc: "Property, tenant, landlord, contract, reporting, and mobile-access systems for UAE real estate groups.",
-    mockup: { title: "Property Platform", sidebar: ["Units", "Tenants", "Owners"], metrics: [{ value: "184", label: "Units" }, { value: "96%", label: "Occupancy" }, { value: "Live", label: "App" }], bars: ["78%", "72%", "88%"], list: ["Tenant and landlord records", "Contract renewal tracker", "Mobile property access"] },
+    title: "Management reporting dashboard",
+    desc: "Invoice status, exception queues, validation issues, approval performance, and finance visibility for business owners.",
+    mockup: { title: "Business CRM", sidebar: ["Leads", "HRM", "Projects"], metrics: [{ value: "214", label: "Leads" }, { value: "38", label: "Users" }, { value: "24", label: "Projects" }], bars: ["78%", "72%", "88%"], list: ["Lead pipeline management", "HRM approval workflow", "Project reporting dashboard"] },
   },
 ];
 
 const faqs = [
-  { q: "What is UAE e-invoicing?", a: "UAE e-invoicing is a regulatory framework requiring businesses to issue, transmit, and store invoices electronically through Peppol-compliant systems." },
-  { q: "What is Peppol?", a: "Peppol is a global e-invoicing standard adopted by the UAE government for secure cross-border and domestic invoice exchange." },
-  { q: "Is Gligx an accredited Peppol provider?", a: "Gligx plans and prepares Peppol-ready software architecture and ERP integration based on published UAE e-invoicing requirements." },
-  { q: "Can Gligx integrate e-invoicing with my existing ERP?", a: "Yes. Gligx builds integration layers between existing ERP, accounting, or billing systems and Peppol-ready invoice formats." },
-  { q: "How long does e-invoicing setup take?", a: "Timeline depends on ERP readiness, data complexity, and workflow scope. A focused integration may take 6-12 weeks." },
-  { q: "What businesses need e-invoicing?", a: "Any UAE business issuing invoices through ERP, accounting, or custom billing systems will be affected by the UAE e-invoicing mandate." },
+  { q: "What is UAE e-invoicing?", a: "UAE e-invoicing is the move toward structured digital invoice exchange and processing. Businesses should prepare invoice data, software workflows, approvals, validation, integrations, and archive processes." },
+  { q: "What is Peppol e-invoicing?", a: "Peppol is a standardized framework for exchanging electronic business documents between systems. In e-invoicing, it helps invoice data move in a structured, system-readable format." },
+  { q: "Is Gligx an official accredited Peppol service provider?", a: "Gligx provides Peppol-ready software integration, e-invoicing workflow development, dashboards, and ERP connectivity. We do not claim official accreditation unless formally approved for that role, and we can coordinate with accredited service providers where required." },
+  { q: "Can Gligx connect e-invoicing with our ERP or accounting software?", a: "Yes. Gligx can review your ERP or accounting system and plan API integration, data mapping, exports, middleware, dashboards, validation workflows, and reporting based on the available technical options." },
+  { q: "What data should we prepare for e-invoicing?", a: "Prepare customer and supplier records, tax registration details, invoice lines, product or service descriptions, tax values, credit notes, debit notes, invoice numbering, approval rules, and reporting requirements." },
+  { q: "Can SMEs use e-invoicing software?", a: "Yes. SMEs can benefit from e-invoicing workflows by reducing manual invoice work, improving accuracy, and creating better finance visibility. The implementation can be kept lightweight if the workflow is simple." },
+  { q: "Can eCommerce invoices be integrated?", a: "Yes. eCommerce orders, customer records, product lines, tax details, and payment status can be connected to invoice workflows when the store and finance system are technically accessible." },
+  { q: "How long does an e-invoicing readiness project take?", a: "Timeline depends on the current software, invoice volume, data quality, integration access, approval complexity, and reporting requirements. A readiness audit is the best first step." },
+  { q: "Do we need to replace our existing accounting software?", a: "Not always. Many businesses can keep their existing ERP or accounting software and add an integration or workflow layer, depending on API access and data quality." },
+  { q: "How do we start with Gligx?", a: "Start with an e-invoicing readiness consultation. Gligx reviews your invoice workflow, systems, data fields, approvals, and integration options, then recommends a practical implementation roadmap." },
 ];
 
 export default function UAEInvoicingServicePage() {
@@ -122,7 +124,7 @@ export default function UAEInvoicingServicePage() {
           <div className="glx-container glx-page-hero-grid">
             <div>
               <nav className="glx-breadcrumb" aria-label="Breadcrumb">
-                <Link href="/">Home</Link><span>/</span><Link href="/services/">Services</Link><span>/</span><span>UAE E-Invoicing Provider with Peppol</span>
+                <Link href="/">Home</Link><span>/</span><Link href="/services/custom-software-development-company/">Services</Link><span>/</span><span>UAE E-Invoicing Provider with Peppol</span>
               </nav>
               <span className="glx-eyebrow">Gligx Service</span>
               <h1>UAE E-Invoicing Provider with Peppol</h1>
@@ -175,8 +177,8 @@ export default function UAEInvoicingServicePage() {
                 </defs>
               </svg>
               <figcaption className="glx-page-visual-caption">
-                <strong>E-Invoicing</strong>
-                <span>Peppol</span><span>ERP</span><span>Compliance</span>
+                <strong>E-Invoicing System</strong>
+                <span>Peppol</span><span>ERP</span><span>Invoices</span>
               </figcaption>
             </figure>
           </div>
@@ -226,7 +228,7 @@ export default function UAEInvoicingServicePage() {
               <article className="glx-service-overview-flow">
                 <div className="glx-service-overview-card is-lead">
                   <span className="glx-kicker">Service Overview</span>
-                  <h2>UAE E-Invoicing Provider with Peppol for compliant finance operations</h2>
+                  <h2>UAE E-Invoicing Provider with Peppol for UAE and GCC businesses</h2>
                   <p>Gligx helps UAE businesses prepare for e-invoicing with Peppol-ready software architecture, ERP integration, invoice validation, approval workflows, dashboards, and secure digital document exchange planning.</p>
                 </div>
                 {overviewCards.map((card, i) => (
@@ -239,26 +241,34 @@ export default function UAEInvoicingServicePage() {
               <aside className="glx-service-aside-stack">
                 <div className="glx-side-panel glx-service-sticky-panel">
                   <span className="glx-eyebrow">Trust Signals</span>
-                  <h2>Peppol-ready e-invoicing expertise</h2>
-                  <p>Gligx helps UAE businesses plan invoice validation, approval flows, dashboards, and ERP coordination for Peppol compliance and finance automation.</p>
+                  <h2>Established in Dubai since 2017</h2>
+                  <p>Gligx actively serves UAE and GCC organizations with websites, custom software, mobile apps, automation, SEO, hosting, and digital growth systems.</p>
                   <div className="glx-side-proof">
-                    <span>Peppol-ready planning</span>
-                    <span>ERP integration</span>
-                    <span>Invoice workflows</span>
-                    <span>UAE compliance</span>
+                    <span>Dubai team since 2017</span>
+                    <span>Finance workflow automation</span>
+                    <span>ERP-style integrations</span>
+                    <span>Confidential support</span>
                   </div>
                   <UIMockup
-                    title="E-Invoicing Hub"
-                    sidebar={["UBL", "API", "Audit"]}
-                    metrics={[{ value: "UBL", label: "Mapped" }, { value: "API", label: "Ready" }, { value: "Audit", label: "Logged" }]}
+                    title="E-Invoice Hub"
+                    sidebar={["Invoices", "Peppol", "ERP"]}
+                    metrics={[{ value: "UBL", label: "Mapped" }, { value: "API", label: "Ready" }, { value: "Live", label: "Audit" }]}
                     bars={["86%", "64%", "72%"]}
-                    list={["Invoice fields mapped", "Approval queue ready", "ERP sync planned"]}
+                    list={["Invoice validation queue", "Peppol exchange status", "ERP sync and reporting"]}
                   />
                 </div>
                 <div className="glx-side-panel glx-service-quick-panel">
                   <span className="glx-kicker">Quick Actions</span>
                   <Link className="glx-btn glx-btn-light" href="/consultation/">Request Free Consultation</Link>
                   <Link className="glx-btn glx-btn-dark" href="/portfolio/">View Related Work</Link>
+                </div>
+                <div className="glx-side-panel glx-service-quick-panel">
+                  <span className="glx-kicker">Related Services</span>
+                  <div className="glx-side-related is-compact">
+                    <Link href="/services/custom-software-development-company/">Software Development Company Dubai</Link>
+                    <Link href="/services/payment-gateway/">Adyen Payment Gateway Integration UAE</Link>
+                    <Link href="/services/custom-software-development-company/business-operations-applications/">Business Operations Applications</Link>
+                  </div>
                 </div>
               </aside>
             </div>

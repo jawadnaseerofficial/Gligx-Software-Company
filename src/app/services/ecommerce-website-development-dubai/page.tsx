@@ -7,15 +7,15 @@ import Footer from "@/components/Footer";
 const overviewCards = [
   {
     title: "Detailed service explanation",
-    html: "<p>eCommerce development creates an online sales channel. Gligx builds commerce platforms with product management, secure checkout, payment gateway integration, SEO-ready catalog pages, and inventory workflows.</p>",
+    html: "<p>eCommerce development creates an online sales channel. Gligx builds commerce platforms with product management, secure checkout, payment gateway integration, SEO-ready catalog pages, and inventory workflows that connect with <a href=\"/services/web-development-company-uae/\">web development</a> and <a href=\"/services/seo-company-dubai/\">SEO</a> services.</p>",
   },
   {
     title: "Who this service is for",
-    html: "<p>UAE businesses that want to sell products online, manage inventory digitally, process payments securely, and grow through a conversion-optimized eCommerce experience.</p>",
+    html: "<p>UAE businesses selling products, managing catalogues, or expanding offline sales online. Supports integration with <a href=\"/services/custom-software-development-company/\">custom software</a> for inventory and order management.</p>",
   },
   {
     title: "Key features and modules",
-    html: "<p>Product catalog, category management, secure checkout, payment gateway integration, order management, inventory tracking, customer accounts, SEO product pages.</p>",
+    html: "<p>Product categories, cart, checkout, payment gateway integration, order management, stock visibility, SEO pages, analytics, and campaign landing pages linked to <a href=\"/services/digital-marketing-agency-dubai/\">digital marketing</a> campaigns.</p>",
   },
   {
     title: "Common problems solved",
@@ -89,7 +89,7 @@ export default function EcommerceServicePage() {
           <div className="glx-container glx-page-hero-grid">
             <div>
               <nav className="glx-breadcrumb" aria-label="Breadcrumb">
-                <Link href="/">Home</Link><span>/</span><Link href="/services/">Services</Link><span>/</span><span>eCommerce Web Development Dubai</span>
+                <Link href="/">Home</Link><span>/</span><Link href="/services/custom-software-development-company/">Services</Link><span>/</span><span>eCommerce Web Development Dubai</span>
               </nav>
               <span className="glx-eyebrow">Gligx Service</span>
               <h1>eCommerce Web Development Dubai</h1>
@@ -226,6 +226,12 @@ export default function EcommerceServicePage() {
                   <span className="glx-kicker">Quick Actions</span>
                   <Link className="glx-btn glx-btn-light" href="/consultation/">Request Free Consultation</Link>
                   <Link className="glx-btn glx-btn-dark" href="/portfolio/">View Related Work</Link>
+                </div>
+                <div className="glx-side-panel glx-service-quick-panel">
+                  <span className="glx-kicker">Related Services</span>
+                  <Link className="glx-side-link" href="/services/web-development-company-uae/">Web Development Company Dubai</Link>
+                  <Link className="glx-side-link" href="/services/seo-company-dubai/">SEO Company Dubai</Link>
+                  <Link className="glx-side-link" href="/services/digital-marketing-agency-dubai/">Digital Marketing Agency Dubai</Link>
                 </div>
               </aside>
             </div>

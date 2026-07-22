@@ -7,15 +7,15 @@ import Footer from "@/components/Footer";
 const overviewCards = [
   {
     title: "Detailed service explanation",
-    html: "<p>Website development turns business strategy and design into a working digital platform. Gligx builds fast, secure, CMS-managed websites with clean architecture.</p>",
+    html: "<p>Website development turns business strategy and design into a working digital platform. Gligx builds fast, secure, CMS-managed websites with clean architecture, and can connect with <a href=\"/services/custom-software-development-company/\">custom software development</a>, <a href=\"/services/ecommerce-website-development-dubai/\">eCommerce</a>, and <a href=\"/services/seo-company-dubai/\">technical SEO</a>.</p>",
   },
   {
     title: "Who this service is for",
-    html: "<p>UAE businesses that need a custom-built website, landing page, portal, or web platform with CMS control, SEO foundations, and room to grow.</p>",
+    html: "<p>UAE businesses that need a custom-built website, landing page, portal, or web platform with CMS control, SEO foundations, and room to grow. For existing sites, Gligx also offers <a href=\"/services/web-hosting-dubai/\">web hosting</a> and maintenance support.</p>",
   },
   {
     title: "Key features and modules",
-    html: "<p>CMS integration, responsive front-end, enquiry forms, SEO metadata, schema markup, fast hosting setup, analytics, security basics.</p>",
+    html: "<p>CMS integration, responsive front-end, enquiry forms, SEO metadata, schema markup, fast hosting setup, analytics, security basics. Forms can connect with <a href=\"/services/custom-software-development-company/\">CRM workflows</a>.</p>",
   },
   {
     title: "Common problems solved",
@@ -113,7 +113,7 @@ export default function WebDevelopmentServicePage() {
           <div className="glx-container glx-page-hero-grid">
             <div>
               <nav className="glx-breadcrumb" aria-label="Breadcrumb">
-                <Link href="/">Home</Link><span>/</span><Link href="/services/">Services</Link><span>/</span><span>Web Development Company Dubai</span>
+                <Link href="/">Home</Link><span>/</span><Link href="/services/custom-software-development-company/">Services</Link><span>/</span><span>Web Development Company Dubai</span>
               </nav>
               <span className="glx-eyebrow">Gligx Service</span>
               <h1>Web Development Company Dubai</h1>
@@ -250,6 +250,12 @@ export default function WebDevelopmentServicePage() {
                   <span className="glx-kicker">Quick Actions</span>
                   <Link className="glx-btn glx-btn-light" href="/consultation/">Request Free Consultation</Link>
                   <Link className="glx-btn glx-btn-dark" href="/portfolio/">View Related Work</Link>
+                </div>
+                <div className="glx-side-panel glx-service-quick-panel">
+                  <span className="glx-kicker">Related Services</span>
+                  <Link className="glx-side-link" href="/services/web-design-dubai/">Web Design Company Dubai</Link>
+                  <Link className="glx-side-link" href="/services/ecommerce-website-development-dubai/">eCommerce Web Development Dubai</Link>
+                  <Link className="glx-side-link" href="/services/web-hosting-dubai/">Web Hosting Dubai</Link>
                 </div>
               </aside>
             </div>

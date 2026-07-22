@@ -7,11 +7,11 @@ import Footer from "@/components/Footer";
 const overviewCards = [
   {
     title: "Detailed service explanation",
-    html: "<p>Web hosting keeps a website accessible, fast, and secure. Gligx coordinates reliable hosting with uptime monitoring, SSL management, backup planning, and migration support.</p>",
+    html: "<p>Web hosting keeps a website accessible, fast, and secure. Gligx coordinates reliable hosting with uptime monitoring, SSL management, backup planning, and migration support for websites built with <a href=\"/services/web-design-dubai/\">Gligx web design</a> and <a href=\"/services/web-development-company-uae/\">development</a>.</p>",
   },
   {
     title: "Who this service is for",
-    html: "<p>UAE business owners who need reliable hosting support, SSL setup, backup planning, and someone to coordinate hosting performance and security.</p>",
+    html: "<p>UAE companies needing stable hosting, SSL setup, website migration, or performance coordination for <a href=\"/services/web-development-company-uae/\">business websites</a>, <a href=\"/services/ecommerce-website-development-dubai/\">eCommerce platforms</a>, and campaign landing pages.</p>",
   },
   {
     title: "Web hosting Dubai for business websites that need reliability",
@@ -19,7 +19,7 @@ const overviewCards = [
   },
   {
     title: "What business website hosting should include",
-    html: "<p>Uptime monitoring, SSL certificate, regular backups, migration support, performance checks, email hosting coordination.</p>",
+    html: "<p>Domain and DNS coordination, SSL installation, website migration, CMS compatibility, backup planning, performance basics, and integration with <a href=\"/services/business-email-hosting-dubai/\">business email hosting</a>.</p>",
   },
   {
     title: "What Gligx focuses on",
@@ -92,7 +92,7 @@ export default function WebHostingServicePage() {
           <div className="glx-container glx-page-hero-grid">
             <div>
               <nav className="glx-breadcrumb" aria-label="Breadcrumb">
-                <Link href="/">Home</Link><span>/</span><Link href="/services/">Services</Link><span>/</span><span>Web Hosting Dubai</span>
+                <Link href="/">Home</Link><span>/</span><Link href="/services/custom-software-development-company/">Services</Link><span>/</span><span>Web Hosting Dubai</span>
               </nav>
               <span className="glx-eyebrow">Gligx Service</span>
               <h1>Web Hosting Dubai</h1>
@@ -229,6 +229,12 @@ export default function WebHostingServicePage() {
                   <span className="glx-kicker">Quick Actions</span>
                   <Link className="glx-btn glx-btn-light" href="/consultation/">Request Free Consultation</Link>
                   <Link className="glx-btn glx-btn-dark" href="/portfolio/">View Related Work</Link>
+                </div>
+                <div className="glx-side-panel glx-service-quick-panel">
+                  <span className="glx-kicker">Related Services</span>
+                  <Link className="glx-side-link" href="/services/business-email-hosting-dubai/">Business Email Hosting Dubai</Link>
+                  <Link className="glx-side-link" href="/services/web-development-company-uae/">Web Development Company Dubai</Link>
+                  <Link className="glx-side-link" href="/services/web-design-dubai/">Web Design Company Dubai</Link>
                 </div>
               </aside>
             </div>

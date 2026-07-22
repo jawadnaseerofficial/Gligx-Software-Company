@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 const overviewCards = [
   {
     title: "Detailed service explanation",
-    html: "<p>Web design creates the first impression a business makes online. Gligx combines premium UI design, responsive mobile experience, CMS control, technical SEO, and lead-focused content placement.</p>",
+    html: '<p>Professional web design is not only the look of a page. For Dubai companies, a website must communicate credibility quickly, explain services clearly, load fast, work beautifully on mobile, and guide visitors toward enquiry actions. Gligx designs websites as business assets, combining brand presentation, page structure, CMS control, lead generation, analytics, and SEO foundations.</p><p>Our web design work can support corporate websites, service company websites, healthcare and booking websites, real estate websites, B2B websites, portfolio websites, and campaign landing pages. When needed, we connect website design with <a href="/services/custom-software-development-company/">custom software development</a>, <a href="/services/seo-company-dubai/">SEO</a>, <a href="/services/branding-agency-dubai/">branding</a>, and <a href="/services/web-hosting-dubai/">hosting</a>.</p>',
   },
   {
     title: "Who this service is for",
@@ -132,7 +132,7 @@ export default function WebDesignServicePage() {
           <div className="glx-container glx-page-hero-grid">
             <div>
               <nav className="glx-breadcrumb" aria-label="Breadcrumb">
-                <Link href="/">Home</Link><span>/</span><Link href="/services/">Services</Link><span>/</span><span>Web Design Company Dubai</span>
+                <Link href="/">Home</Link><span>/</span><Link href="/services/custom-software-development-company/">Services</Link><span>/</span><span>Web Design Company Dubai</span>
               </nav>
               <span className="glx-eyebrow">Gligx Service</span>
               <h1>Web Design Company Dubai</h1>
@@ -185,8 +185,8 @@ export default function WebDesignServicePage() {
                 </defs>
               </svg>
               <figcaption className="glx-page-visual-caption">
-                <strong>Web Design</strong>
-                <span>UI</span><span>CMS</span><span>SEO</span>
+                <strong>Premium Website</strong>
+                <span>CMS</span><span>SEO</span><span>Leads</span>
               </figcaption>
             </figure>
           </div>
@@ -252,23 +252,31 @@ export default function WebDesignServicePage() {
                   <h2>Premium web design for UAE businesses</h2>
                   <p>Gligx combines premium UI, responsive layouts, CMS control, technical SEO, fast loading, and lead-focused service pages.</p>
                   <div className="glx-side-proof">
-                    <span>Premium UI design</span>
-                    <span>SEO-ready structure</span>
-                    <span>CMS control</span>
-                    <span>Lead-focused</span>
+                    <span>Dubai established</span>
+                    <span>Premium web design</span>
+                    <span>SEO-safe redesign</span>
+                    <span>Lead-focused UX</span>
                   </div>
                   <UIMockup
                     title="Website Experience"
-                    sidebar={["CMS", "SEO", "UX"]}
-                    metrics={[{ value: "CMS", label: "Control" }, { value: "SEO", label: "Ready" }, { value: "Leads", label: "Tracked" }]}
+                    sidebar={["Pages", "Leads", "CMS"]}
+                    metrics={[{ value: "98", label: "Performance" }, { value: "SEO", label: "Ready" }, { value: "24/7", label: "Forms" }]}
                     bars={["86%", "64%", "72%"]}
-                    list={["Page sections mapped", "CMS modules ready", "Enquiry path active"]}
+                    list={["Homepage conversion path", "Service landing page", "CMS content workflow"]}
                   />
                 </div>
                 <div className="glx-side-panel glx-service-quick-panel">
                   <span className="glx-kicker">Quick Actions</span>
                   <Link className="glx-btn glx-btn-light" href="/consultation/">Request Free Consultation</Link>
                   <Link className="glx-btn glx-btn-dark" href="/portfolio/">View Related Work</Link>
+                </div>
+                <div className="glx-side-panel glx-service-quick-panel">
+                  <span className="glx-kicker">Related Services</span>
+                  <div className="glx-side-related is-compact">
+                    <Link href="/services/web-development-company-uae/">Web Development Company Dubai</Link>
+                    <Link href="/services/payment-gateway/">Payment Gateway Integration UAE</Link>
+                    <Link href="/services/ready-to-go/">Ready-to-Go Business Website Packages</Link>
+                  </div>
                 </div>
               </aside>
             </div>

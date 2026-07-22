@@ -23,15 +23,15 @@ const portfolioExamples = [
 const overviewCards = [
   {
     title: "Detailed service explanation",
-    html: "<p>Professional business email hosting ensures reliable communication, proper deliverability, and secure domain authentication. Gligx helps set up, migrate, and maintain business email systems.</p>",
+    html: "<p>Professional business email hosting ensures reliable communication, proper deliverability, and secure domain authentication. Gligx helps set up, migrate, and maintain business email systems alongside <a href=\"/services/web-hosting-dubai/\">web hosting</a> services.</p>",
   },
   {
     title: "Who this service is for",
-    html: "<p>UAE companies that need professional email hosting with proper DNS setup, mailbox migration, and reliable email deliverability for team communication.</p>",
+    html: "<p>UAE companies that need professional email hosting with proper DNS setup, mailbox migration, and reliable email deliverability for team communication connected to their <a href=\"/services/web-development-company-uae/\">business website</a>.</p>",
   },
   {
     title: "Business email hosting Dubai for professional communication",
-    html: "<p>A professional email address builds trust. Gligx helps businesses set up email that delivers reliably and represents the brand professionally.</p>",
+    html: "<p>A professional email address builds trust. Gligx helps businesses set up email that delivers reliably and represents the brand professionally. Integrates with <a href=\"/services/web-design-dubai/\">web design</a> and hosting packages.</p>",
   },
   {
     title: "Email setup issues that affect leads",
@@ -91,7 +91,7 @@ export default function ServicePage() {
           <div className="glx-container glx-page-hero-grid">
             <div>
               <nav className="glx-breadcrumb" aria-label="Breadcrumb">
-                <Link href="/">Home</Link><span>/</span><Link href="/services/">Services</Link><span>/</span><span>Business Email Hosting Dubai</span>
+                <Link href="/">Home</Link><span>/</span><Link href="/services/custom-software-development-company/">Services</Link><span>/</span><span>Business Email Hosting Dubai</span>
               </nav>
               <span className="glx-eyebrow">Gligx Service</span>
               <h1>Business Email Hosting Dubai</h1>
@@ -133,7 +133,7 @@ export default function ServicePage() {
                 <text x="36" y="260" fill="#ccc" fontSize="11" fontFamily="monospace">Spam risk reduced</text>
               </svg>
               <figcaption className="glx-page-visual-caption">
-                <strong>Label</strong><span>Business Email</span><span>SPF</span><span>DKIM</span><span>DMARC</span>
+                <strong>Business Email</strong><span>SPF</span><span>DKIM</span><span>DMARC</span>
               </figcaption>
             </figure>
           </div>
@@ -194,10 +194,10 @@ export default function ServicePage() {
               <aside className="glx-service-aside-stack">
                 <div className="glx-side-panel glx-service-sticky-panel">
                   <span className="glx-eyebrow">Trust Signals</span>
-                  <h2>Established in Dubai since 2017</h2>
-                  <p>Gligx actively serves UAE and GCC organizations...</p>
+                  <h2>Reliable email hosting for UAE businesses</h2>
+                  <p>Gligx helps businesses set up professional email hosting with proper DNS records, SPF, DKIM, DMARC guidance, mailbox migration, and reliable form delivery.</p>
                   <div className="glx-side-proof">
-                    <span>Business Email</span><span>SPF</span><span>DKIM</span><span>Since 2017</span>
+                    <span>Professional email</span><span>DNS records</span><span>Form delivery</span><span>Since 2017</span>
                   </div>
                   <UIMockup compact title="Email Hub" sidebar={["SPF", "DKIM", "DMARC"]} metrics={[{ value: "SPF", label: "Aligned" }, { value: "DKIM", label: "Signed" }, { value: "DMARC", label: "Guided" }]} bars={["86%", "74%", "68%"]} list={["SPF record configured", "DKIM signature active", "DMARC policy guided"]} />
                 </div>
@@ -208,11 +208,9 @@ export default function ServicePage() {
                 </div>
                 <div className="glx-side-panel glx-service-quick-panel">
                   <span className="glx-kicker">Related Services</span>
-                  <div className="glx-side-related is-compact">
-                    <Link href="/services/custom-software-development-company/">Software Development Company Dubai</Link>
-                    <Link href="/services/uae-e-invoicing-provider-peppol/">UAE E-Invoicing with Peppol</Link>
-                    <Link href="/services/web-design-dubai/">Web Design Dubai</Link>
-                  </div>
+                  <Link className="glx-side-link" href="/services/web-hosting-dubai/">Web Hosting Dubai</Link>
+                  <Link className="glx-side-link" href="/services/web-development-company-uae/">Web Development Company Dubai</Link>
+                  <Link className="glx-side-link" href="/services/web-design-dubai/">Web Design Company Dubai</Link>
                 </div>
               </aside>
             </div>

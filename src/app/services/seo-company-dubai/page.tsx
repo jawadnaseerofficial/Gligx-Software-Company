@@ -7,15 +7,15 @@ import Footer from "@/components/Footer";
 const overviewCards = [
   {
     title: "Detailed service explanation",
-    html: "<p>SEO improves how easily potential customers can find a business through search engines. Gligx focuses on technical SEO, content optimization, local search visibility, and measurable improvements.</p>",
+    html: "<p>SEO improves how easily potential customers can find a business through search engines. Gligx focuses on technical SEO, content optimization, local search visibility, and measurable improvements that complement <a href=\"/services/web-design-dubai/\">web design</a> and <a href=\"/services/web-development-company-uae/\">web development</a>.</p>",
   },
   {
     title: "Who this service is for",
-    html: "<p>UAE businesses that want more qualified website traffic, better search visibility for their service pages, and a clear SEO strategy that produces measurable results.</p>",
+    html: "<p>UAE businesses wanting more organic enquiries, better local search visibility, or recovery from thin content. SEO can connect with <a href=\"/services/digital-marketing-agency-dubai/\">digital marketing campaigns</a> for stronger results.</p>",
   },
   {
     title: "Key features and modules",
-    html: "<p>Technical SEO audit, keyword research, service page optimization, local SEO for Dubai, schema markup, content strategy, Search Console monitoring, SEO reporting.</p>",
+    html: "<p>Technical audits, keyword mapping, metadata optimization, schema markup, local SEO, service page expansion, blog strategy, and reporting that ties to <a href=\"/services/web-development-company-uae/\">website development</a> and hosting.</p>",
   },
   {
     title: "Common problems solved",
@@ -106,7 +106,7 @@ export default function SEOCompanyServicePage() {
           <div className="glx-container glx-page-hero-grid">
             <div>
               <nav className="glx-breadcrumb" aria-label="Breadcrumb">
-                <Link href="/">Home</Link><span>/</span><Link href="/services/">Services</Link><span>/</span><span>SEO Company Dubai</span>
+                <Link href="/">Home</Link><span>/</span><Link href="/services/custom-software-development-company/">Services</Link><span>/</span><span>SEO Company Dubai</span>
               </nav>
               <span className="glx-eyebrow">Gligx Service</span>
               <h1>SEO Company Dubai</h1>
@@ -243,6 +243,12 @@ export default function SEOCompanyServicePage() {
                   <span className="glx-kicker">Quick Actions</span>
                   <Link className="glx-btn glx-btn-light" href="/consultation/">Request Free Consultation</Link>
                   <Link className="glx-btn glx-btn-dark" href="/portfolio/">View Related Work</Link>
+                </div>
+                <div className="glx-side-panel glx-service-quick-panel">
+                  <span className="glx-kicker">Related Services</span>
+                  <Link className="glx-side-link" href="/services/web-design-dubai/">Web Design Company Dubai</Link>
+                  <Link className="glx-side-link" href="/services/digital-marketing-agency-dubai/">Digital Marketing Agency Dubai</Link>
+                  <Link className="glx-side-link" href="/services/web-development-company-uae/">Web Development Company Dubai</Link>
                 </div>
               </aside>
             </div>

@@ -23,15 +23,15 @@ const portfolioExamples = [
 const overviewCards = [
   {
     title: "Detailed service explanation",
-    html: "<p>Digital marketing connects businesses with customers who are searching, browsing, and comparing online. Gligx supports SEO, PPC, landing pages, content strategy, and campaign reporting.</p>",
+    html: "<p>Digital marketing connects businesses with customers who are searching, browsing, and comparing online. Gligx supports SEO, PPC, landing pages, content strategy, and campaign reporting that complements <a href=\"/services/web-development-company-uae/\">web development</a> and <a href=\"/services/web-design-dubai/\">web design</a>.</p>",
   },
   {
     title: "Who this service is for",
-    html: "<p>UAE businesses that need a coordinated digital marketing approach with measurable lead generation, campaign tracking, and content that converts.</p>",
+    html: "<p>UAE businesses that need a coordinated digital marketing approach with measurable lead generation, campaign tracking, and content that converts. Works alongside <a href=\"/services/seo-company-dubai/\">SEO services</a> for organic growth.</p>",
   },
   {
     title: "Common problems solved",
-    html: "<p>Low website traffic, poor conversion rates, uncoordinated campaigns, no tracking, content that does not generate enquiries.</p>",
+    html: "<p>Low website traffic, poor conversion rates, uncoordinated campaigns, no tracking, content that does not generate enquiries. Gligx connects campaigns with <a href=\"/services/web-development-company-uae/\">website optimization</a> and landing page improvements.</p>",
   },
 ];
 
@@ -79,7 +79,7 @@ export default function ServicePage() {
           <div className="glx-container glx-page-hero-grid">
             <div>
               <nav className="glx-breadcrumb" aria-label="Breadcrumb">
-                <Link href="/">Home</Link><span>/</span><Link href="/services/">Services</Link><span>/</span><span>Digital Marketing Agency Dubai</span>
+                <Link href="/">Home</Link><span>/</span><Link href="/services/custom-software-development-company/">Services</Link><span>/</span><span>Digital Marketing Agency Dubai</span>
               </nav>
               <span className="glx-eyebrow">Gligx Service</span>
               <h1>Digital Marketing Agency Dubai</h1>
@@ -121,7 +121,7 @@ export default function ServicePage() {
                 <text x="36" y="260" fill="#ccc" fontSize="11" fontFamily="monospace">Conversion tracking active</text>
               </svg>
               <figcaption className="glx-page-visual-caption">
-                <strong>Label</strong><span>Digital Marketing</span><span>PPC</span><span>Leads</span><span>ROI</span>
+                <strong>Campaign Engine</strong><span>PPC</span><span>Leads</span><span>ROI</span>
               </figcaption>
             </figure>
           </div>
@@ -182,10 +182,10 @@ export default function ServicePage() {
               <aside className="glx-service-aside-stack">
                 <div className="glx-side-panel glx-service-sticky-panel">
                   <span className="glx-eyebrow">Trust Signals</span>
-                  <h2>Established in Dubai since 2017</h2>
-                  <p>Gligx actively serves UAE and GCC organizations...</p>
+                  <h2>Digital marketing for UAE business growth</h2>
+                  <p>Gligx plans digital marketing campaigns with SEO, PPC, landing page optimization, conversion tracking, content structure, and reporting systems for UAE business growth.</p>
                   <div className="glx-side-proof">
-                    <span>Digital Marketing</span><span>PPC</span><span>SEO</span><span>Since 2017</span>
+                    <span>Campaign planning</span><span>PPC management</span><span>Conversion tracking</span><span>Since 2017</span>
                   </div>
                   <UIMockup compact title="Campaign Hub" sidebar={["PPC", "SEO", "Social"]} metrics={[{ value: "3.4x", label: "ROI" }, { value: "64", label: "Leads" }, { value: "-18%", label: "CPL" }]} bars={["82%", "68%", "74%"]} list={["Google Ads campaign active", "Landing page optimized", "Conversion tracking live"]} />
                 </div>
@@ -196,11 +196,9 @@ export default function ServicePage() {
                 </div>
                 <div className="glx-side-panel glx-service-quick-panel">
                   <span className="glx-kicker">Related Services</span>
-                  <div className="glx-side-related is-compact">
-                    <Link href="/services/custom-software-development-company/">Software Development Company Dubai</Link>
-                    <Link href="/services/uae-e-invoicing-provider-peppol/">UAE E-Invoicing with Peppol</Link>
-                    <Link href="/services/web-design-dubai/">Web Design Dubai</Link>
-                  </div>
+                  <Link className="glx-side-link" href="/services/seo-company-dubai/">SEO Company Dubai</Link>
+                  <Link className="glx-side-link" href="/services/web-design-dubai/">Web Design Company Dubai</Link>
+                  <Link className="glx-side-link" href="/services/web-development-company-uae/">Web Development Company Dubai</Link>
                 </div>
               </aside>
             </div>

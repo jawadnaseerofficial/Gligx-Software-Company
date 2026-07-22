@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 const overviewCards = [
   {
     title: "Detailed service explanation",
-    html: "<p>Custom software is useful when important business workflows are too specific, manual, or fragmented for generic tools. Gligx designs and develops web applications, portals, dashboards, CRM-style systems, HRM modules, project management platforms, approval workflows, booking systems, licensing platforms, inventory tools, and reporting systems for UAE organizations.</p><p>Our experience includes internal applications for regional enterprise teams, government department workflows, motorsports event and licensing systems, diamond manufacturing and pricing systems, property management platforms, HRM, CRM, project management, and custom operational dashboards. We can connect software with mobile apps, e-invoicing workflows, websites, and APIs.</p>",
+    html: '<p>Custom software is useful when important business workflows are too specific, manual, or fragmented for generic tools. Gligx designs and develops web applications, portals, dashboards, CRM-style systems, HRM modules, project management platforms, approval workflows, booking systems, licensing platforms, inventory tools, and reporting systems for UAE organizations.</p><p>Our experience includes internal applications for regional enterprise teams, government department workflows, motorsports event and licensing systems, diamond manufacturing and pricing systems, property management platforms, HRM, CRM, project management, and custom operational dashboards. We can connect software with <a href="/services/mobile-app-development/">mobile apps</a>, <a href="/services/uae-e-invoicing-provider-peppol/">e-invoicing workflows</a>, websites, and APIs.</p>',
   },
   {
     title: "Who this service is for",
@@ -31,7 +31,7 @@ const overviewCards = [
   },
   {
     title: "Software development company in Dubai for business operations",
-    html: '<p>Searches such as <strong>software development company in Dubai</strong>, <strong>software development in Dubai</strong>, <strong>software companies in UAE</strong>, and <strong>custom software development company in Dubai</strong> usually come from businesses with a real operational pain. The team may be chasing approvals on email, managing reports in spreadsheets, losing lead follow-ups, or running departments on tools that no longer fit.</p><p>Gligx focuses on practical software that matches the way UAE and GCC businesses actually work. Projects can connect with ERP and CRM development, mobile app development, UAE e-invoicing workflows, payment integrations, websites, APIs, and reporting dashboards.</p>',
+    html: '<p>Searches such as <strong>software development company in Dubai</strong>, <strong>software development in Dubai</strong>, <strong>software companies in UAE</strong>, and <strong>custom software development company in Dubai</strong> usually come from businesses with a real operational pain. The team may be chasing approvals on email, managing reports in spreadsheets, losing lead follow-ups, or running departments on tools that no longer fit.</p><p>Gligx focuses on practical software that matches the way UAE and GCC businesses actually work. Projects can connect with <a href="/services/erp-crm-development-dubai/">ERP and CRM development</a>, <a href="/services/mobile-app-development/">mobile app development</a>, <a href="/services/uae-e-invoicing-provider-peppol/">UAE e-invoicing workflows</a>, <a href="/services/payment-gateway/">payment integrations</a>, websites, APIs, and reporting dashboards.</p>',
   },
   {
     title: "Custom software vs ready-made software",
@@ -43,7 +43,7 @@ const overviewCards = [
   },
   {
     title: "Why choose Gligx for custom software development Dubai",
-    html: '<p>Gligx has been active in the UAE and GCC market since 2017. We know software projects work best when the workflow, users, data, permissions, reports, and support model are clear before screens are finalized. The aim is software that staff can actually use, not a complicated system that looks impressive in a demo only.</p><p>Because Gligx also works on mobile app development, websites, eCommerce, payment integration, hosting, e-invoicing workflows, and DevOps and cloud infrastructure, custom software can be planned as part of a complete digital ecosystem instead of a standalone coding task.</p>',
+    html: '<p>Gligx has been active in the UAE and GCC market since 2017. We know software projects work best when the workflow, users, data, permissions, reports, and support model are clear before screens are finalized. The aim is software that staff can actually use, not a complicated system that looks impressive in a demo only.</p><p>Because Gligx also works on <a href="/services/mobile-app-development/">mobile app development</a>, websites, eCommerce, <a href="/services/payment-gateway/">payment integration</a>, hosting, e-invoicing workflows, and <a href="/services/devops-cloud-infrastructure/">DevOps and cloud infrastructure</a>, custom software can be planned as part of a complete digital ecosystem instead of a standalone coding task.</p>',
   },
   {
     title: "Business problems custom software can solve",
@@ -123,7 +123,10 @@ const faqs = [
   { q: "When should a UAE business choose custom software?", a: "Custom software makes sense when spreadsheets, WhatsApp follow-ups, email approvals, or generic tools are holding the team back. If managers cannot see status clearly or staff repeat the same data entry every day, a custom system is often worth reviewing." },
   { q: "What type of software does Gligx build?", a: "Gligx builds portals, dashboards, CRM, ERP-style modules, HRM, project systems, approval workflows, booking platforms, event and licensing systems, property platforms, pricing tools, and industry-specific business applications." },
   { q: "Can Gligx build CRM, ERP, and HRM software?", a: "Yes. We can build focused CRM, ERP, HRM, lead management, project, inventory, finance, employee, and reporting modules. The scope is shaped around the actual process instead of forcing the business into a fixed product." },
-  { q: "Can custom software include mobile apps?", a: "Yes. Many Gligx software projects include mobile access through web-based responsive interfaces, dedicated iOS and Android apps, or field staff portals connected to the main system." },
+  { q: "Can custom software include mobile apps?", a: "Yes. Many software projects include a web admin panel plus iOS or Android apps for employees, customers, field teams, event teams, property teams, or management users." },
+  { q: "Can you integrate with existing systems?", a: "Yes, when the existing system provides a practical way to connect. During discovery we review APIs, exports, database access, payment gateways, accounting tools, ERP, website forms, WhatsApp flows, and third-party platforms." },
+  { q: "How do you protect business data?", a: "We plan role-based access, validation, secure forms, audit history, controlled admin access, backup awareness, hosting considerations, and security review based on the sensitivity of the application." },
+  { q: "Can software be expanded later?", a: "Yes. We usually recommend starting with the highest-value workflow, then expanding into reports, integrations, user roles, mobile apps, or new modules after the first version is stable." },
   { q: "How long does custom software development take?", a: "Timelines depend on scope. A focused dashboard or approval system may take 6-10 weeks. A multi-module platform with reporting, roles, integrations, and mobile access may take 14-22 weeks. Gligx plans each project in clear phases." },
 ];
 
@@ -137,7 +140,7 @@ export default function SoftwareDevelopmentServicePage() {
           <div className="glx-container glx-page-hero-grid">
             <div>
               <nav className="glx-breadcrumb" aria-label="Breadcrumb">
-                <Link href="/">Home</Link><span>/</span><Link href="/services/">Services</Link><span>/</span><span>Software Development Company Dubai</span>
+                <Link href="/">Home</Link><span>/</span><Link href="/services/custom-software-development-company/">Services</Link><span>/</span><span>Software Development Company Dubai</span>
               </nav>
               <span className="glx-eyebrow">Gligx Service</span>
               <h1>Software Development Company Dubai</h1>
@@ -295,9 +298,9 @@ export default function SoftwareDevelopmentServicePage() {
                 <div className="glx-side-panel glx-service-quick-panel">
                   <span className="glx-kicker">Related Services</span>
                   <div className="glx-side-related is-compact">
-                    <Link href="/services/sme-custom-softwares/">SME Custom Software Dubai</Link>
-                    <Link href="/services/ai-automation-chatbot-development-dubai/">AI Automation &amp; AI Chatbot Development Dubai</Link>
-                    <Link href="/services/erp-crm-development-dubai/">ERP &amp; CRM Development Dubai</Link>
+                    <Link href="/services/custom-software-development-company/sme-custom-softwares/">SME Custom Software Dubai</Link>
+                    <Link href="/services/custom-software-development-company/ai-automation-chatbot-development-dubai/">AI Automation &amp; AI Chatbot Development Dubai</Link>
+                    <Link href="/services/custom-software-development-company/erp-crm-development-dubai/">ERP &amp; CRM Development Dubai</Link>
                   </div>
                 </div>
               </aside>

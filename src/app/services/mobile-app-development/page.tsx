@@ -23,19 +23,19 @@ const portfolioExamples = [
 const overviewCards = [
   {
     title: "Detailed service explanation",
-    html: "<p>Mobile app development creates a direct channel between a business and its users. Gligx develops iOS and Android apps connected to secure backend platforms and business systems.</p>",
+    html: "<p>Mobile app development creates a direct channel between a business and its users. Gligx develops iOS and Android apps connected to secure backend platforms and <a href=\"/services/custom-software-development-company/\">business software systems</a>.</p>",
   },
   {
     title: "Who this service is for",
-    html: "<p>UAE organizations that need customer-facing mobile apps, employee workflow apps, field reporting systems, booking platforms, or app-connected dashboards.</p>",
+    html: "<p>UAE organizations that need customer-facing mobile apps, employee workflow apps, field reporting systems, booking platforms, or app-connected dashboards that integrate with <a href=\"/services/custom-software-development-company/\">custom software</a>.</p>",
   },
   {
     title: "Key features and modules",
-    html: "<p>iOS and Android apps, secure API integration, user authentication, role-based access, push notifications, offline support, admin dashboard.</p>",
+    html: "<p>iOS and Android apps, secure API integration, user authentication, role-based access, push notifications, offline support, admin dashboard connected to <a href=\"/services/web-development-company-uae/\">web platforms</a>.</p>",
   },
   {
     title: "Common problems solved",
-    html: "<p>Disconnected field teams, paper-based reporting, slow customer communication, lack of mobile access to business systems.</p>",
+    html: "<p>Disconnected field teams, paper-based reporting, slow customer communication, lack of mobile access to <a href=\"/services/custom-software-development-company/\">business systems</a>.</p>",
   },
   {
     title: "Mobile app development company Dubai for real business workflows",
@@ -99,7 +99,7 @@ export default function ServicePage() {
           <div className="glx-container glx-page-hero-grid">
             <div>
               <nav className="glx-breadcrumb" aria-label="Breadcrumb">
-                <Link href="/">Home</Link><span>/</span><Link href="/services/">Services</Link><span>/</span><span>Mobile App Development Dubai</span>
+                <Link href="/">Home</Link><span>/</span><Link href="/services/custom-software-development-company/">Services</Link><span>/</span><span>Mobile App Development Dubai</span>
               </nav>
               <span className="glx-eyebrow">Gligx Service</span>
               <h1>Mobile App Development Dubai</h1>
@@ -141,7 +141,7 @@ export default function ServicePage() {
                 <text x="36" y="260" fill="#ccc" fontSize="11" fontFamily="monospace">Release checklist ready</text>
               </svg>
               <figcaption className="glx-page-visual-caption">
-                <strong>Label</strong><span>Mobile Apps</span><span>iOS</span><span>Android</span><span>API</span>
+                <strong>Mobile Apps</strong><span>iOS</span><span>Android</span><span>API</span>
               </figcaption>
             </figure>
           </div>
@@ -202,10 +202,10 @@ export default function ServicePage() {
               <aside className="glx-service-aside-stack">
                 <div className="glx-side-panel glx-service-sticky-panel">
                   <span className="glx-eyebrow">Trust Signals</span>
-                  <h2>Established in Dubai since 2017</h2>
-                  <p>Gligx actively serves UAE and GCC organizations...</p>
+                  <h2>Mobile app development for UAE businesses</h2>
+                  <p>Gligx develops iOS and Android mobile applications connected to secure backend platforms, APIs, and admin dashboards for customer-facing and internal business workflows.</p>
                   <div className="glx-side-proof">
-                    <span>Mobile Apps</span><span>iOS</span><span>Android</span><span>Since 2017</span>
+                    <span>iOS apps</span><span>Android apps</span><span>Backend connected</span><span>Since 2017</span>
                   </div>
                   <UIMockup compact title="App Hub" sidebar={["iOS", "Android", "API"]} metrics={[{ value: "iOS", label: "Ready" }, { value: "Android", label: "Ready" }, { value: "API", label: "Secure" }]} bars={["84%", "76%", "90%"]} list={["iOS screens designed", "Android app built", "API endpoints secured"]} />
                 </div>
@@ -216,11 +216,9 @@ export default function ServicePage() {
                 </div>
                 <div className="glx-side-panel glx-service-quick-panel">
                   <span className="glx-kicker">Related Services</span>
-                  <div className="glx-side-related is-compact">
-                    <Link href="/services/custom-software-development-company/">Software Development Company Dubai</Link>
-                    <Link href="/services/uae-e-invoicing-provider-peppol/">UAE E-Invoicing with Peppol</Link>
-                    <Link href="/services/web-design-dubai/">Web Design Dubai</Link>
-                  </div>
+                  <Link className="glx-side-link" href="/services/custom-software-development-company/">Software Development Company Dubai</Link>
+                  <Link className="glx-side-link" href="/services/web-development-company-uae/">Web Development Company Dubai</Link>
+                  <Link className="glx-side-link" href="/services/seo-company-dubai/">SEO Company Dubai</Link>
                 </div>
               </aside>
             </div>
