@@ -148,30 +148,40 @@ export default function ServicePage() {
         </section>
 
         {/* Motion Scene */}
-        <section className="glx-hosting-scroll-scene glx-service-motion-scene glx-motion-mobile">
-          <div className="glx-container glx-hosting-scroll-inner">
-            <div className="glx-hosting-scroll-content">
+        <section className="glx-hosting-scroll-scene glx-service-motion-scene glx-motion-mobile" aria-label="Mobile App Flow">
+          <div className="glx-container glx-hosting-scene-grid">
+            <div className="glx-hosting-scene-copy">
               <span className="glx-eyebrow">Mobile App Flow</span>
               <h2>Mobile app experiences connected to secure backend systems.</h2>
               <p>Gligx develops mobile applications connected to secure backend platforms, APIs, and admin dashboards for customer-facing and internal business workflows.</p>
-              <div className="glx-hosting-metrics">
-                <span>iOS → Ready</span>
-                <span>Android → Ready</span>
-                <span>API → Secure</span>
+              <div className="glx-hosting-scene-metrics">
+                <span><strong>iOS</strong> Ready</span>
+                <span><strong>Android</strong> Ready</span>
+                <span><strong>API</strong> Secure</span>
               </div>
             </div>
-            <div className="glx-hosting-visual-grid">
-              <div className="glx-hosting-category-main">
-                <span className="glx-hosting-category-tag">App Delivery</span>
-                <ul>
-                  <li>Screen flow designed</li>
-                  <li>API endpoints mapped</li>
-                  <li>Release checklist ready</li>
-                </ul>
+            <div className="glx-hosting-room glx-service-motion-room is-category-room" aria-hidden="true">
+              <div className="glx-hosting-room-glow"></div>
+              <div className="glx-category-stage">
+                <div className="glx-category-panel glx-category-panel-main">
+                  <span>Mobile App Flow</span>
+                  <strong>Flow</strong>
+                  <em>Screen flow designed</em><em>API endpoints mapped</em><em>Release checklist ready</em>
+                </div>
+                <div className="glx-category-panel glx-category-panel-a">
+                  <span>iOS</span>
+                  <strong>Ready</strong>
+                </div>
+                <div className="glx-category-panel glx-category-panel-b">
+                  <span>Android</span>
+                  <strong>Ready</strong>
+                </div>
+                <div className="glx-category-panel glx-category-panel-c">
+                  <span>API</span>
+                  <strong>Secure</strong>
+                </div>
+                <div className="glx-category-flow-line"></div>
               </div>
-              <div className="glx-hosting-category-a"><span>iOS</span><span>Ready</span></div>
-              <div className="glx-hosting-category-b"><span>Android</span><span>Ready</span></div>
-              <div className="glx-hosting-category-c"><span>API</span><span>Secure</span></div>
             </div>
           </div>
         </section>

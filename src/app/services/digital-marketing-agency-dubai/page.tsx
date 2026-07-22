@@ -128,30 +128,40 @@ export default function ServicePage() {
         </section>
 
         {/* Motion Scene */}
-        <section className="glx-hosting-scroll-scene glx-service-motion-scene glx-motion-marketing">
-          <div className="glx-container glx-hosting-scroll-inner">
-            <div className="glx-hosting-scroll-content">
+        <section className="glx-hosting-scroll-scene glx-service-motion-scene glx-motion-marketing" aria-label="Campaign Engine">
+          <div className="glx-container glx-hosting-scene-grid">
+            <div className="glx-hosting-scene-copy">
               <span className="glx-eyebrow">Campaign Engine</span>
               <h2>Digital marketing systems that connect campaigns to measurable enquiries.</h2>
               <p>Gligx plans digital marketing campaigns with SEO, PPC, landing page optimization, conversion tracking, content structure, and reporting systems for UAE business growth.</p>
-              <div className="glx-hosting-metrics">
-                <span>PPC → Tracked</span>
-                <span>Social → Planned</span>
-                <span>ROI → Measured</span>
+              <div className="glx-hosting-scene-metrics">
+                <span><strong>PPC</strong> Tracked</span>
+                <span><strong>Social</strong> Planned</span>
+                <span><strong>ROI</strong> Measured</span>
               </div>
             </div>
-            <div className="glx-hosting-visual-grid">
-              <div className="glx-hosting-category-main">
-                <span className="glx-hosting-category-tag">Campaign Engine</span>
-                <ul>
-                  <li>Audience segments defined</li>
-                  <li>Tracking events active</li>
-                  <li>Landing page connected</li>
-                </ul>
+            <div className="glx-hosting-room glx-service-motion-room is-category-room" aria-hidden="true">
+              <div className="glx-hosting-room-glow"></div>
+              <div className="glx-category-stage">
+                <div className="glx-category-panel glx-category-panel-main">
+                  <span>Campaign Engine</span>
+                  <strong>Engine</strong>
+                  <em>Audience segments defined</em><em>Tracking events active</em><em>Landing page connected</em>
+                </div>
+                <div className="glx-category-panel glx-category-panel-a">
+                  <span>PPC</span>
+                  <strong>Tracked</strong>
+                </div>
+                <div className="glx-category-panel glx-category-panel-b">
+                  <span>Social</span>
+                  <strong>Planned</strong>
+                </div>
+                <div className="glx-category-panel glx-category-panel-c">
+                  <span>ROI</span>
+                  <strong>Measured</strong>
+                </div>
+                <div className="glx-category-flow-line"></div>
               </div>
-              <div className="glx-hosting-category-a"><span>PPC</span><span>Tracked</span></div>
-              <div className="glx-hosting-category-b"><span>Social</span><span>Planned</span></div>
-              <div className="glx-hosting-category-c"><span>ROI</span><span>Measured</span></div>
             </div>
           </div>
         </section>

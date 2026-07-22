@@ -140,30 +140,40 @@ export default function ServicePage() {
         </section>
 
         {/* Motion Scene */}
-        <section className="glx-hosting-scroll-scene glx-service-motion-scene glx-motion-email">
-          <div className="glx-container glx-hosting-scroll-inner">
-            <div className="glx-hosting-scroll-content">
+        <section className="glx-hosting-scroll-scene glx-service-motion-scene glx-motion-email" aria-label="Business Email Security">
+          <div className="glx-container glx-hosting-scene-grid">
+            <div className="glx-hosting-scene-copy">
               <span className="glx-eyebrow">Business Email Security</span>
               <h2>Professional email hosting with secure domain communication.</h2>
               <p>Gligx helps set up business email hosting with proper DNS records, SPF, DKIM, DMARC guidance, mailbox migration, and deliverability best practices for UAE companies.</p>
-              <div className="glx-hosting-metrics">
-                <span>SPF → Aligned</span>
-                <span>DKIM → Signed</span>
-                <span>DMARC → Guided</span>
+              <div className="glx-hosting-scene-metrics">
+                <span><strong>SPF</strong> Aligned</span>
+                <span><strong>DKIM</strong> Signed</span>
+                <span><strong>DMARC</strong> Guided</span>
               </div>
             </div>
-            <div className="glx-hosting-visual-grid">
-              <div className="glx-hosting-category-main">
-                <span className="glx-hosting-category-tag">Email Delivery Hub</span>
-                <ul>
-                  <li>DNS records verified</li>
-                  <li>SPF record configured</li>
-                  <li>DKIM signature active</li>
-                </ul>
+            <div className="glx-hosting-room glx-service-motion-room is-category-room" aria-hidden="true">
+              <div className="glx-hosting-room-glow"></div>
+              <div className="glx-category-stage">
+                <div className="glx-category-panel glx-category-panel-main">
+                  <span>Email Delivery Hub</span>
+                  <strong>Hub</strong>
+                  <em>DNS records verified</em><em>SPF record configured</em><em>DKIM signature active</em>
+                </div>
+                <div className="glx-category-panel glx-category-panel-a">
+                  <span>SPF</span>
+                  <strong>Aligned</strong>
+                </div>
+                <div className="glx-category-panel glx-category-panel-b">
+                  <span>DKIM</span>
+                  <strong>Signed</strong>
+                </div>
+                <div className="glx-category-panel glx-category-panel-c">
+                  <span>DMARC</span>
+                  <strong>Guided</strong>
+                </div>
+                <div className="glx-category-flow-line"></div>
               </div>
-              <div className="glx-hosting-category-a"><span>SPF</span><span>Aligned</span></div>
-              <div className="glx-hosting-category-b"><span>DKIM</span><span>Signed</span></div>
-              <div className="glx-hosting-category-c"><span>DMARC</span><span>Guided</span></div>
             </div>
           </div>
         </section>
